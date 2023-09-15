@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  background-color: #cccccc6e;
+  font-weight: normal;
+  line-height: 1.7;
+}
+
+a {
+  transition: color 0.2s linear, border 0.2s linear;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  color: #49bf9d;
+}
+a:hover {
+  border-bottom-color: transparent;
+}
+
+p {
+  margin: 0 0 2em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #787878;
+  font-weight: normal;
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 26px;
+}
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+sub,
+sup {
+  font-size: 12px;
+}
+
+blockquote {
+  border-left: 5px solid #c5c3c3;
+  margin: 2em 0;
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.1em;
+}
+
+li {
+  padding-left: 0.5em;
+}
+
+.ul-alternate {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ul-alternate li {
+  border-bottom: 1px solid #c5c3c3;
+  padding-left: 0;
+}
+
+.ul-alternate li:last-child {
+  border: 0;
+}
+
+.ul-icons {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ul-icons li {
+  display: inline-block;
+  font-size: 2em;
+  color: #41927b;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+  padding: 120px 54px 72px;
+  box-sizing: border-box;
+  background-image: url("../image/overlay.png"), url("../image/montanha.jpg");
+  background-position: center top;
+  background-size: auto, cover;
+  text-align: right;
+}
+
+.main-header-title {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #d8e6e6;
+  font-weight: normal;
+  color: #ffffff80;
+}
+.main-header-title strong {
+  color: #d8e6e6;
+  font-weight: bold;
+}
+
+.main-header-title span {
+  color: rgb(219, 92, 7);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main-header-link {
+  color: inherit;
+}
+.main-header-link:hover {
+  color: #1074a3;
+}
+.main-content {
+  width: 70%;
+  margin-left: 25%;
+  padding: 126px 124px 72px;
+  box-sizing: border-box;
+}
+
+.row {
+overflow: auto;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+}
