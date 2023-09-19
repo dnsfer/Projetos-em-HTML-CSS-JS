@@ -166,12 +166,12 @@ textarea {
   margin: 3px;
   display: inline-block;
   width: 22%;
-  
+
 }
 
 .btn-default-stroke:hover {
   background-color: #41927b;
-  color:white; 
+  color: white;
 }
 
 .btn-default-small {
@@ -287,12 +287,30 @@ header img {
 
 }
 
-.gallery-thumb img, .gallery-img img{
+.gallery-thumb img,
+.gallery-img img {
   margin-bottom: 2%;
   display: inline-block;
   border-radius: 15px;
 }
 
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 30%;
+  left: 0;
+  color: white;
+  padding: 0 54px 72px 0;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+
+.copyright li{
+  display: inline-block;
+  font-size: .95em;
+  font-weight: 480;
+}
 
 
 /* Grid */
