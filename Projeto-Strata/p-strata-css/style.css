@@ -11,6 +11,7 @@ a {
   border-bottom: 1px dotted;
   color: #49bf9d;
 }
+
 a:hover {
   border-bottom-color: transparent;
 }
@@ -18,6 +19,11 @@ a:hover {
 p {
   margin: 0 0 2em;
 }
+
+img {
+  max-width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -36,12 +42,15 @@ h1 {
 h2 {
   font-size: 30px;
 }
+
 h3 {
   font-size: 28px;
 }
+
 h4 {
   font-size: 26px;
 }
+
 h5 {
   font-size: 24px;
 }
@@ -93,8 +102,128 @@ li {
 
 .ul-icons li {
   display: inline-block;
-  font-size: 2em;
+  font-size: 1.8em;
   color: #41927b;
+}
+
+input,
+label,
+textarea {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select {
+  font-size: .93em;
+  background: #d6d6d6cc;
+  padding: 15px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  margin-bottom: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+input:focus,
+textarea:focus {
+
+  border: 3px solid #41927b;
+  outline: none;
+}
+
+textarea {
+  height: 10em;
+}
+
+
+.btn-default {
+  background-color: #41927b;
+  border: 2.5px solid #41927b;
+  color: #f0eeee;
+  padding: 0.85em 1.5em;
+  border-radius: 5px;
+  font-size: 0.8em;
+  display: inline-block;
+  width: auto;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.btn-default:hover {
+  background-color: rgba(255, 255, 255, 0.24);
+  color: black;
+}
+
+.btn-default-stroke {
+  background-color: white;
+  color: black;
+  margin: 3px;
+  display: inline-block;
+  width: 22%;
+  
+}
+
+.btn-default-stroke:hover {
+  background-color: #41927b;
+  color:white; 
+}
+
+.btn-default-small {
+  font-size: 0.65em;
+}
+
+.btn-default-big {
+  font-size: 1.2em;
+}
+
+.btn-default-full {
+  display: block;
+  text-align: center;
+}
+
+.img-link {
+  border: 0;
+}
+
+.table {
+  width: 100%;
+  margin: 0 0 2em 0;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table td {
+  padding: 0.75em;
+}
+
+.table th {
+  background-color: #cccccc6e;
+}
+
+.table tbody tr td {
+  border-bottom: 1px solid #cccc;
+}
+
+.table tbody tr:first-child td {
+  border-top: 2px solid #6666;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: 2px solid #6666;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: #bebebe;
+}
+
+.table-alternate tbody {
+  border: 1px solid #c2c2c2fa;
 }
 
 .main-header {
@@ -118,6 +247,7 @@ li {
   font-weight: normal;
   color: #ffffff80;
 }
+
 .main-header-title strong {
   color: #d8e6e6;
   font-weight: bold;
@@ -132,9 +262,11 @@ li {
 .main-header-link {
   color: inherit;
 }
+
 .main-header-link:hover {
   color: #1074a3;
 }
+
 .main-content {
   width: 70%;
   margin-left: 25%;
@@ -142,11 +274,53 @@ li {
   box-sizing: border-box;
 }
 
+header img {
+  border-radius: 50%;
+}
+
+.link-header img {
+  border-radius: 10px;
+}
+
+.gallery-img img {
+  width: 100%;
+
+}
+
+.gallery-thumb img, .gallery-img img{
+  margin-bottom: 2%;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+
+
+/* Grid */
 .row {
-overflow: auto;
+  overflow: auto;
 }
 
 .col-2 {
-  width: 50%;
+  width: 49%;
   float: left;
 }
+
+.col-2:first-child {
+  margin-right: 1%;
+}
+
+.col-2:last-child {
+  margin-left: 1%;
+}
+
+.col-2-3 {
+  width: 65%;
+  float: left;
+}
+
+.col-1-3 {
+  width: 32%;
+  margin-left: 10px;
+  float: left;
+}
+
