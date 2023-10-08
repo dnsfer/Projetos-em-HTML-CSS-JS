@@ -8,15 +8,15 @@ body,
 html {
     width: 100%;
     height: 100%;
+    font-family: sans-serif;
 }
 
 .cabecalho {
     display: flex;
-    justify-content: ;
     width: 100%;
     height: 40%;
     background-color: #0B1426;
-    gap: 90px;
+   
     line-height: 30px;
 }
 
@@ -26,12 +26,21 @@ html {
     color: #ffff;
 }
 
+.coluna-esquerda{
+display: inline-block;
+width: 100%;
+height: 90%;
+column-count: 3;
+column-gap: 6.9em;
+margin: 1rem 1rem;
+padding: 1.5rem;
+border: 2px solid black;
+}
 .foto-pessoal {
     padding-left: 95px;
     padding-bottom: 65px;
-    
-    width: 490px;
+    Width: 470px;
     height: 390px;
     border-radius: 50%;
-
 }
+
