@@ -1,0 +1,168 @@
+html {
+
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "Onest", arial;
+
+}
+
+.button {
+    display: inline-block;
+    padding: .9em 2.0em;
+    background-color: #58c4c4;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #37a0a0;
+}
+
+.top-header {
+    text-align: center;
+}
+
+.top-header-logo {
+    margin: .5rem;
+}
+
+.top-nav {
+    background-color: #612674;
+    text-align: center;
+}
+
+.top-nav ul {
+    margin: 0;
+    padding: .4em 0;
+    list-style: none;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+.top-nav a:hover {
+    background-color: #7b37923f;
+}
+
+
+.top-content {
+    padding: 1em;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.top-content-title {
+    color: #622674;
+    font-size: 1.75em;
+    margin: 1.375em;
+    /*36/16*/
+}
+
+.top-content-subtitle {
+    color: #a923d6;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.middle-content {
+    padding: 2em;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.middle-content p {
+    line-height: 1.5;
+    color: #222;
+}
+
+.middle-content-title {
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+
+.middle-content i {
+    font-size: 2.8em;
+    color: #a923d6;
+}
+
+.main-content {
+    padding: 2em;
+}
+
+.main-content-title-p:hover {
+    border-bottom: .1em solid #652e78;
+    transition: all .2s ease-in-out;
+    width: 35%;
+    font-size: 1em;
+}
+
+.main-content-article p {
+    line-height: 1.5;
+}
+
+.main-content-article {
+    margin-bottom: 3.5em;
+}
+
+.main-content-title-p {
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #25303e;
+    color: #83969f;
+    text-align: center;
+    padding-bottom: .2em;
+
+}
+
+.footer-menushare {
+    background-color: #303d4c;
+    padding: .5em;
+
+}
+
+.footer-menushare ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.footer-menushare li {
+    list-style: none;
+    margin: 0 1em;
+    display: inline-block;
+    margin: 15px;
+
+
+}
+
+.footer-menushare a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    border-bottom: .1em solid #3c4753;
+}
