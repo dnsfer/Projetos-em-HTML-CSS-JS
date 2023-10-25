@@ -34,10 +34,10 @@ h6 {
     box-shadow: 0 0 16px rgba(255, 255, 255, 0.384);
 }
 
-.icon-play  {
+.icon-play {
     height: 3.5em;
     display: none;
-    
+
 }
 
 .icon-play img {
@@ -141,6 +141,7 @@ h6 {
     letter-spacing: .05em;
 }
 
+
 .footer {
     background-color: #25303e;
     color: #83969f;
@@ -181,11 +182,12 @@ h6 {
         float: left;
     }
 
-.icon-play {
-    
-    display: block;
+    .icon-play {
 
-}
+        display: block;
+
+    }
+
     .top-nav {
         background-color: transparent;
         float: right;
@@ -214,6 +216,7 @@ h6 {
     .top-content {
         background-color: #521a66;
         color: #fff;
+        height: 100;
     }
 
     .top-content-title,
@@ -225,6 +228,7 @@ h6 {
         width: 44%;
         margin: 3%;
         float: left;
+        
     }
 
     .main-content-article .button {
@@ -254,26 +258,35 @@ h6 {
     .top-content {
         background-image: url(../imagens/bg_topo_1600x1374.jpg);
         padding: 19em 25em 10em;
-        /* background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover; */
+        background-position: center bottom;
+        height: 20em;
+        padding-top: 17em;
+    }
+}
 
+@media screen and (min-width: 74em) {
+    .top-content {
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        padding: 19em 20em 10em;
+        background-position: center top;
     }
 
+    .icon-play {
+        height: 7em;
+    }
 
+    .col-1_4 {
+        width: 23%;
+        margin: 1%;
+    }
 
-    .col-1-2 {
+    .col-1_2 {
         width: 48%;
         margin: 1%;
         float: left;
-        columns: 2;
     }
 
     .main-content-article .button {
         float: none;
-    }
-
-    .footer-menushare {
-        height: 10%;
     }
 }
