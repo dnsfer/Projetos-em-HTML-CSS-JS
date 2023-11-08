@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,32 +17,62 @@ html {
     display: flex;
     width: 100%;
     height: 40%;
-    background-color: #0B1426;
-   
+    background-color: #01261F;
     line-height: 30px;
 }
 
 .informacao-pessoal {
     margin: 30px;
+    padding-left: 150px;
     line-height: 30px;
-    color: #ffff;
+    color: #fdfcfc;
+    font-family: 'Oswald', sans-serif;
+
 }
 
-.coluna-esquerda{
-display: inline-block;
-width: 100%;
-height: 90%;
-column-count: 3;
-column-gap: 6.9em;
-margin: 1rem 1rem;
-padding: 1.5rem;
-border: 2px solid black;
+.principal {
+    font-size: 2.88em;
+    padding-bottom: .37em;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    color: rgba(221, 180, 45, 0.984);
 }
+
+.cargo {
+    font-weight: normal;
+    font-size: 1.38em;
+    letter-spacing: .1em;
+}
+
 .foto-pessoal {
-    padding-left: 95px;
+    padding-left: 95.9px;
     padding-bottom: 65px;
     Width: 470px;
     height: 390px;
     border-radius: 50%;
+
 }
 
+.foto-pessoal img {
+    border: 5px solid white;
+}
+
+
+.Profissional {
+    display: inline-block;
+    width: 80%;
+    height: 10vw;
+    column-count: 0;
+    column-gap: 6.9em;
+    margin: 1rem 1rem;
+    padding: 1.5em;
+    border: 2px solid black;
+}
+
+.title {
+    margin-bottom: .8em;
+    border-bottom: 2px solid black;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
