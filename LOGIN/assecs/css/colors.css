@@ -1,14 +1,13 @@
-
 :root {
-        /*TEXTO*/
-    --text-color-dark: #0D0D0D;
-    --text-color-light: #F2F2F2;
+    --color-text-dark: #0D0D0D;
+    --color-text-white: #f8f8f8;
 
-    /*Principal*/
-    --color-register: #062A40;
-    --color-login: #dddddd;
+    --color-segundaria-login: #f8f8f8;
+    --color-register: #122936;
+
+    --color-fundo-input: #e4e4e4d5;
+
+    --color-box-shadow: #a0a0a0;
+
     --icon-color: #F3F3F3;
-
-    /*contorno*/
---color-contorno:#F2F2F2;
 }

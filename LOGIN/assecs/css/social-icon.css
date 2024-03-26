@@ -1,0 +1,19 @@
+.social-icon {
+
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    background-color: var(--icon-color);
+    box-shadow: 0 4px 4px #494949f6;
+    transition:  .4s ease-in-out;
+}
+
+.social-icon:hover {
+    background-color: var(--color-register);
+    color: var(--color-text-white);
+    transform: translateY(-15%);
+}
