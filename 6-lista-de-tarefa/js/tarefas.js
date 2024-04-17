@@ -13,7 +13,7 @@ inputNovaTarefa.addEventListener("keypress", (e) => {
     let tarefa = {
       nome: inputNovaTarefa.value,
       id: gerarId(),
-    };
+    }
     adicionarTarefa(tarefa);
   }
 });
@@ -45,7 +45,7 @@ btnAddTarefa.addEventListener("click", (e) => {
     let tarefaAtual = document.getElementById(''+idTarefa+'');
     
     if (tarefaAtual) {
-      let li = criarTagLi(tarefa);
+      let li = criarTagLI(tarefa);
       listaTarefas.replaceChild(li, tarefaAtual);
       alterarJanelaEdicao();
     } else {
