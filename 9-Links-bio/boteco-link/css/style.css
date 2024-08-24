@@ -1,0 +1,111 @@
+:root{
+    --bg-principal:#0D0D0D;
+    --bg-secundario: #2c2c2f;
+    --bg-fundo: #FF9D02;
+
+    --text-color: #F2F2F2;
+    --text-color: #0D0B07;
+
+    --bshadow-color:#F1F0EF;
+    --bshadow-color2: #FF9D02;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    height: 100vh;
+    font-size: 1.1rem;
+}
+
+body {
+    background-color: var(--bg-secundario);
+    
+}
+
+.container {
+    height: 90%;
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    outline: none;
+}
+
+.degrade {
+    background-color: #0D0D0D;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px 0 ;
+}
+
+header img {
+    max-width: 180px;
+    margin-bottom: 10px;
+    clip-path: circle(41%);
+    width: 70%;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: var(--bg-principal);
+    font-weight: 300;
+}
+
+/* ESTILO DOS BOTÕES */
+section.botoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+button.degrade img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 18px;
+    
+}
+
+button.degrade i{
+    margin-right: 15px ;
+}
+
+a.link button {
+    width: 100%;
+    padding: 5px 15px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--bg-fundo);
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--bshadow-color);
+    transition: .5s ease;
+}
+
+a.link button:hover{
+    transform: scale(1.05);
+}
+
+section .social-icons a{
+    text-align: center;
+    margin: 30px;
+}

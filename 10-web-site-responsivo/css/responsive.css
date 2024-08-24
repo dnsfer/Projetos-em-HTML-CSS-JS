@@ -1,0 +1,139 @@
+@media screen and (max-width: 900px) {
+
+    header .menu-desktop,
+    header .btn-contato {
+        display: none;
+    }
+
+        header .btn-menu-mob {
+            display: block;
+        }
+}
+
+@media screen and (max-width: 878px) {
+
+    /* RESPONSIVO DO HERO */
+    .hero-site .txt-hero h1 {
+        font-family: "Yantramanav", sans-serif;
+        font-size: 2.6rem;
+        line-height: 45px;
+
+    }
+
+    .hero-site .txt-hero h1 span {
+        display: block;
+        font-weight: 800;
+        font-family: "Poiret One", sans-serif;
+        text-transform: uppercase;
+        font-size: 2.8rem;
+    }
+
+    .hero-site .txt-hero p {
+        font-size: 1rem;
+    }
+
+    .hero-site .txt-hero p span {
+        display: inline;
+    }
+
+    .hero-site button {
+        font-size: 1.125rem;
+    }
+
+    /* RESPONSIVO das Vantagens */
+
+    .vantagens .itens-container {
+        flex-direction: column;
+    }
+
+    .vantagens .itens-container .img-itens img {
+        width: 100%;
+    }
+
+    .vantagens .itens-container .txt-itens h3 {
+        text-align: center;
+    }
+
+    .vantagens .itens-container .txt-itens p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .vantagens .itens-container .item-1 {
+        order: 1;
+    }
+
+    .vantagens .itens-container .item-2 {
+        order: 0;
+    }
+
+    /* Estilo dos botões de Contatos */
+
+    .txt-contato,
+    .icons-contato {
+        display: block;
+        width: 100%;
+    }
+
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .contato .icons-contato button {
+        width: 100%;
+    }
+
+    .contato .txt-contato p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* RESPONSIVO da Sessão Hotéis */
+
+    .hoteis h3 {
+        font-size: 2.5em;
+        line-height: 40px;
+
+    }
+
+    .hoteis p {
+        margin: 20px 0;
+        font-size: 1em;
+
+    }
+
+    /* Estilo da sessão como funciona */
+
+    section.como-funciona {
+        padding: 80px 0;
+    }
+
+    .txt-funciona,
+    .instrucoes {
+        display: block;
+        width: 100%;
+    }
+
+    .como-funciona .txt-funciona {
+        position: static;
+    }
+
+    .como-funciona .txt-funciona h3 {
+        font-size: 3em;
+        text-align: center;
+
+    }
+
+    .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+        footer .top-footer button {
+            width: 40px;
+            height: 40px;
+            font-size: 1.2em;
+        }
+}
