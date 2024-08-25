@@ -1,3 +1,16 @@
+:root{
+    --bg-fundo: #031626;
+    --bg-fundo-s: #3b4b21;
+    --bg-fundo-t: #0D0D0D;
+    --bg-fundo-q: #404040;
+
+    --text-color-p: #F2E7DC;
+    --text-color-s: #F2F2F0;
+    --text-color-q: #0D0A04;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -10,19 +23,24 @@ html{
 }
 
 body{
-    background-color: #190019;
-    height: 100%;
+    background-color: var(--bg-fundo);
+    height: 100vh;
+    overflow: hidden;
+    
 }
 
 .container{
-    height: 100%;
-    max-width: 550px;
-    margin: 0 auto;
+    width: 95%;
+    max-width: 400px;
+    border-radius: 20px;
+    margin: 8rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 1rem;
     color: #FFF;
+    background-color: var(--bg-fundo-t);
+    box-shadow: 0 0 10px var(--bg-fundo-q);
 }
 
 a{
@@ -31,7 +49,7 @@ a{
 }
 
 .degrade{
-    background: linear-gradient(to right, #2B124C 60%,#522B5B);
+    background: linear-gradient(145deg, var(--bg-fundo) 40%, var(--bg-fundo-q));
 }
 /* ESTILO DO HEADER */
 
@@ -48,17 +66,16 @@ header img{
 
 header h1{
     font-size: 2.5em;
-    font-family: "Chivo", sans-serif;
     margin-bottom: 10px;
-    color: #a39e9ebb;
-    font-weight: 200;
+    color: var(--text-color-p);
+    font-weight: 400;
 }
 
 /* ESTILO DOS BOTÕES */
 
 section.botoes-links{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -74,11 +91,21 @@ a.link button{
     font-family: "Outfit", sans-serif;
     cursor: pointer;
     color: #fff;
-    transition: .2s;
+    transition: .5s ease;
 }
 
 a.link i{
-    font-size: 2em;
+    font-size: 1.8em;
+}
+
+i.box-instagram:hover{
+    color: #DD2A7B;
+}
+i.box-whatsapp:hover{
+    color: #25D366;
+}
+i.box-portfolio:hover{
+    color: var(--bg-fundo-t);
 }
 
 a.link button:hover, footer a.btn-footer:hover{
