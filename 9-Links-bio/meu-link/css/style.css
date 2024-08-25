@@ -25,6 +25,7 @@ html{
 body{
     background-color: var(--bg-fundo);
     height: 90vh;
+    
 
     
 }
@@ -33,11 +34,11 @@ body{
     width: 95%;
     max-width: 330px;
     border-radius: 20px;
-    margin: 8rem auto;
+    margin: 4rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem ;
     color: #FFF;
     background-color: var(--bg-fundo-t);
     box-shadow: 0 0 10px var(--bg-fundo-q);
