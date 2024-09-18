@@ -1,10 +1,11 @@
 :root{
     --bg-principal:#0D0D0D;
-    --bg-secundario: #2c2c2f;
+    --bg-secundario: #101011;
     --bg-fundo: #FF9D02;
+    --bg-contorno: #696767cc;
 
     --text-color: #F2F2F2;
-    --text-color: #0D0B07;
+    --text-color2: #0D0B07;
 
     --bshadow-color:#F1F0EF;
     --bshadow-color2: #FF9D02;
@@ -36,6 +37,7 @@ body {
     justify-content: center;
     padding: 20px;
     color: #FFF;
+    
 }
 
 a {
@@ -50,7 +52,7 @@ a {
 
 header {
     text-align: center;
-    margin-bottom: 20px 0 ;
+    margin-bottom: 20px 0;
 }
 
 header img {
@@ -61,10 +63,10 @@ header img {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
     margin-bottom: 10px;
-    color: var(--bg-principal);
-    font-weight: 300;
+    color: var(--bg-fundo);
+    font-weight: 400;
 }
 
 /* ESTILO DOS BOTÕES */
@@ -75,37 +77,77 @@ section.botoes-links {
     margin-top: 30px;
 }
 
-button.degrade img{
-    width: 40px;
-    height: 40px;
-    margin: 5px 18px;
-    
-}
+
 
 button.degrade i{
     margin-right: 15px ;
 }
 
+.degrade p, .txt-span {
+    font-size: 1.15rem;
+    margin: 0 auto;
+}
+
 a.link button {
     width: 100%;
-    padding: 5px 15px;
-    margin: auto auto;
+    padding: 10px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 1px solid var(--bg-fundo);
     border-radius: 30px;
-    font-size: 1.2rem;
     cursor: pointer;
     color: var(--bshadow-color);
-    transition: .5s ease;
+    transition: .5s ease-in-out;
 }
 
 a.link button:hover{
     transform: scale(1.05);
+    
+}
+
+/* Rede Social  */
+
+section.social-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid var(--bg-contorno);
+    border-radius: 2px;
+    padding: 20px;
 }
 
 section .social-icons a{
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+section .social-icons i{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+
+section .titulo{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: var(--bshadow-color2);
+    width: 100%;
     text-align: center;
-    margin: 30px;
+}
+
+footer p{
+    font-size: .7rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/*  RESPONSIVIDADE */
+
+@media screen and (max-width: 966px) {
+    
 }
